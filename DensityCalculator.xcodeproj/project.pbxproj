@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E01340A14C9413E00A4C6C1 /* WeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E01340914C9413D00A4C6C1 /* WeightViewController.m */; };
+		4E3C5D2216325B6200A913E1 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E3C5D2116325B6200A913E1 /* Default-568h@2x.png */; };
+		4E91298114C66EBE0001F870 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E91298014C66EBE0001F870 /* UIKit.framework */; };
+		4E91298314C66EBE0001F870 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E91298214C66EBE0001F870 /* Foundation.framework */; };
+		4E91298514C66EBE0001F870 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E91298414C66EBE0001F870 /* CoreGraphics.framework */; };
+		4E91298B14C66EBE0001F870 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E91298914C66EBE0001F870 /* InfoPlist.strings */; };
+		4E91298D14C66EBE0001F870 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E91298C14C66EBE0001F870 /* main.m */; };
+		4E91299114C66EBE0001F870 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E91299014C66EBE0001F870 /* AppDelegate.m */; };
+		4E91299414C66EBE0001F870 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E91299214C66EBE0001F870 /* MainStoryboard.storyboard */; };
+		4E91299714C66EBE0001F870 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E91299614C66EBE0001F870 /* MasterViewController.m */; };
+		4E9129A214C66EBE0001F870 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9129A114C66EBE0001F870 /* SenTestingKit.framework */; };
+		4E9129A314C66EBE0001F870 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E91298014C66EBE0001F870 /* UIKit.framework */; };
+		4E9129A414C66EBE0001F870 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E91298214C66EBE0001F870 /* Foundation.framework */; };
+		4E9129AC14C66EBE0001F870 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E9129AA14C66EBE0001F870 /* InfoPlist.strings */; };
+		4E9129AF14C66EBE0001F870 /* DensityCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9129AE14C66EBE0001F870 /* DensityCalculatorTests.m */; };
+		4E9129BE14C671970001F870 /* DensityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9129BD14C671970001F870 /* DensityViewController.m */; };
+		4E9129C214C671BA0001F870 /* SpeedOfSoundViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9129C114C671BA0001F870 /* SpeedOfSoundViewController.m */; };
+		4E9129C514C671D50001F870 /* RadiationRatioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9129C414C671D50001F870 /* RadiationRatioViewController.m */; };
+		4E9129C714C67D280001F870 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E9129C614C67D280001F870 /* AudioToolbox.framework */; };
+		4E9129CA14C67F680001F870 /* SliderSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E9129C914C67F680001F870 /* SliderSettingsViewController.m */; };
+		4E919A9E14CBA9D500075E5B /* DensityCalculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E919A9614CBA9D500075E5B /* DensityCalculator.png */; };
+		4E919A9F14CBA9D500075E5B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E919A9714CBA9D500075E5B /* Icon-72.png */; };
+		4E919AA014CBA9D500075E5B /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E919A9814CBA9D500075E5B /* Icon-Small-50.png */; };
+		4E919AA114CBA9D500075E5B /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E919A9914CBA9D500075E5B /* Icon-Small.png */; };
+		4E919AA214CBA9D500075E5B /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E919A9A14CBA9D500075E5B /* Icon-Small@2x.png */; };
+		4E919AA314CBA9D500075E5B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E919A9B14CBA9D500075E5B /* Icon.png */; };
+		4E919AA414CBA9D500075E5B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E919A9C14CBA9D500075E5B /* Icon@2x.png */; };
+		4E919AA514CBA9D500075E5B /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 4E919A9D14CBA9D500075E5B /* iTunesArtwork */; };
+		4EA2397714C78499006C491E /* VolumeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA2397614C78499006C491E /* VolumeViewController.m */; };
+		4EA2397A14C78843006C491E /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA2397914C78843006C491E /* Calculator.m */; };
+		4EA2397E14C7E266006C491E /* WidthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA2397D14C7E266006C491E /* WidthViewController.m */; };
+		4EA2398114C7E89B006C491E /* ThicknessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EA2398014C7E89B006C491E /* ThicknessViewController.m */; };
+		4EA7A63B14CB746A003D044D /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EA7A63A14CB746A003D044D /* background.png */; };
+		4EA7A63E14CB79AF003D044D /* PlayButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EA7A63D14CB79AF003D044D /* PlayButton.png */; };
+		4EAB555F14C6FE8100A8120F /* LengthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EAB555E14C6FE8100A8120F /* LengthViewController.m */; };
+		4ED3276F1F473267005DDEBB /* Icon-120.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED3276D1F473267005DDEBB /* Icon-120.png */; };
+		4ED327701F473267005DDEBB /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4ED3276E1F473267005DDEBB /* iTunesArtwork@2x.png */; };
+		4ED327721F473781005DDEBB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4ED327711F473781005DDEBB /* AVFoundation.framework */; };
+		4ED98C3A14CC80E0009BA5A8 /* PropertyList.m in Sources */ = {isa = PBXBuildFile; fileRef = 4ED98C3914CC80E0009BA5A8 /* PropertyList.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E9129A514C66EBE0001F870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4E91297314C66EBD0001F870 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4E91297B14C66EBE0001F870;
+			remoteInfo = DensityCalculator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4E01340814C9413D00A4C6C1 /* WeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WeightViewController.h; path = ViewControllers/WeightViewController.h; sourceTree = "<group>"; };
+		4E01340914C9413D00A4C6C1 /* WeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WeightViewController.m; path = ViewControllers/WeightViewController.m; sourceTree = "<group>"; };
+		4E3C5D2116325B6200A913E1 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../../Default-568h@2x.png"; sourceTree = "<group>"; };
+		4E91297C14C66EBE0001F870 /* DensityCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DensityCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E91298014C66EBE0001F870 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4E91298214C66EBE0001F870 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E91298414C66EBE0001F870 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E91298814C66EBE0001F870 /* DensityCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DensityCalculator-Info.plist"; sourceTree = "<group>"; };
+		4E91298A14C66EBE0001F870 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E91298C14C66EBE0001F870 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E91298E14C66EBE0001F870 /* DensityCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DensityCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		4E91298F14C66EBE0001F870 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4E91299014C66EBE0001F870 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4E91299314C66EBE0001F870 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		4E91299514C66EBE0001F870 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		4E91299614C66EBE0001F870 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		4E9129A014C66EBE0001F870 /* DensityCalculatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DensityCalculatorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E9129A114C66EBE0001F870 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4E9129A914C66EBE0001F870 /* DensityCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DensityCalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		4E9129AB14C66EBE0001F870 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E9129AD14C66EBE0001F870 /* DensityCalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DensityCalculatorTests.h; sourceTree = "<group>"; };
+		4E9129AE14C66EBE0001F870 /* DensityCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DensityCalculatorTests.m; sourceTree = "<group>"; };
+		4E9129BC14C671970001F870 /* DensityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DensityViewController.h; path = ViewControllers/DensityViewController.h; sourceTree = "<group>"; };
+		4E9129BD14C671970001F870 /* DensityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DensityViewController.m; path = ViewControllers/DensityViewController.m; sourceTree = "<group>"; };
+		4E9129C014C671BA0001F870 /* SpeedOfSoundViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SpeedOfSoundViewController.h; path = ViewControllers/SpeedOfSoundViewController.h; sourceTree = "<group>"; };
+		4E9129C114C671BA0001F870 /* SpeedOfSoundViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SpeedOfSoundViewController.m; path = ViewControllers/SpeedOfSoundViewController.m; sourceTree = "<group>"; };
+		4E9129C314C671D50001F870 /* RadiationRatioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RadiationRatioViewController.h; path = ViewControllers/RadiationRatioViewController.h; sourceTree = "<group>"; };
+		4E9129C414C671D50001F870 /* RadiationRatioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RadiationRatioViewController.m; path = ViewControllers/RadiationRatioViewController.m; sourceTree = "<group>"; };
+		4E9129C614C67D280001F870 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		4E9129C814C67F680001F870 /* SliderSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SliderSettingsViewController.h; path = ViewControllers/SliderSettingsViewController.h; sourceTree = "<group>"; };
+		4E9129C914C67F680001F870 /* SliderSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SliderSettingsViewController.m; path = ViewControllers/SliderSettingsViewController.m; sourceTree = "<group>"; };
+		4E919A9614CBA9D500075E5B /* DensityCalculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DensityCalculator.png; sourceTree = "<group>"; };
+		4E919A9714CBA9D500075E5B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		4E919A9814CBA9D500075E5B /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		4E919A9914CBA9D500075E5B /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		4E919A9A14CBA9D500075E5B /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		4E919A9B14CBA9D500075E5B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		4E919A9C14CBA9D500075E5B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		4E919A9D14CBA9D500075E5B /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
+		4EA2397514C78499006C491E /* VolumeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VolumeViewController.h; path = ViewControllers/VolumeViewController.h; sourceTree = "<group>"; };
+		4EA2397614C78499006C491E /* VolumeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VolumeViewController.m; path = ViewControllers/VolumeViewController.m; sourceTree = "<group>"; };
+		4EA2397814C78843006C491E /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Calculator.h; path = Classes/Calculator.h; sourceTree = "<group>"; };
+		4EA2397914C78843006C491E /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Calculator.m; path = Classes/Calculator.m; sourceTree = "<group>"; };
+		4EA2397C14C7E266006C491E /* WidthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WidthViewController.h; path = ViewControllers/WidthViewController.h; sourceTree = "<group>"; };
+		4EA2397D14C7E266006C491E /* WidthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WidthViewController.m; path = ViewControllers/WidthViewController.m; sourceTree = "<group>"; };
+		4EA2397F14C7E89B006C491E /* ThicknessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThicknessViewController.h; path = ViewControllers/ThicknessViewController.h; sourceTree = "<group>"; };
+		4EA2398014C7E89B006C491E /* ThicknessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThicknessViewController.m; path = ViewControllers/ThicknessViewController.m; sourceTree = "<group>"; };
+		4EA7A63A14CB746A003D044D /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		4EA7A63D14CB79AF003D044D /* PlayButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayButton.png; sourceTree = "<group>"; };
+		4EAB555D14C6FE8100A8120F /* LengthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LengthViewController.h; path = ViewControllers/LengthViewController.h; sourceTree = "<group>"; };
+		4EAB555E14C6FE8100A8120F /* LengthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LengthViewController.m; path = ViewControllers/LengthViewController.m; sourceTree = "<group>"; };
+		4ED3276D1F473267005DDEBB /* Icon-120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-120.png"; sourceTree = "<group>"; };
+		4ED3276E1F473267005DDEBB /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		4ED327711F473781005DDEBB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		4ED98C3814CC80E0009BA5A8 /* PropertyList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PropertyList.h; path = Classes/PropertyList.h; sourceTree = "<group>"; };
+		4ED98C3914CC80E0009BA5A8 /* PropertyList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PropertyList.m; path = Classes/PropertyList.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E91297914C66EBE0001F870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED327721F473781005DDEBB /* AVFoundation.framework in Frameworks */,
+				4E9129C714C67D280001F870 /* AudioToolbox.framework in Frameworks */,
+				4E91298114C66EBE0001F870 /* UIKit.framework in Frameworks */,
+				4E91298314C66EBE0001F870 /* Foundation.framework in Frameworks */,
+				4E91298514C66EBE0001F870 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E91299C14C66EBE0001F870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9129A214C66EBE0001F870 /* SenTestingKit.framework in Frameworks */,
+				4E9129A314C66EBE0001F870 /* UIKit.framework in Frameworks */,
+				4E9129A414C66EBE0001F870 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E91297114C66EBD0001F870 = {
+			isa = PBXGroup;
+			children = (
+				4E91298614C66EBE0001F870 /* DensityCalculator */,
+				4E9129A714C66EBE0001F870 /* DensityCalculatorTests */,
+				4E91297F14C66EBE0001F870 /* Frameworks */,
+				4E91297D14C66EBE0001F870 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E91297D14C66EBE0001F870 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E91297C14C66EBE0001F870 /* DensityCalculator.app */,
+				4E9129A014C66EBE0001F870 /* DensityCalculatorTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E91297F14C66EBE0001F870 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4ED327711F473781005DDEBB /* AVFoundation.framework */,
+				4E9129C614C67D280001F870 /* AudioToolbox.framework */,
+				4E91298014C66EBE0001F870 /* UIKit.framework */,
+				4E91298214C66EBE0001F870 /* Foundation.framework */,
+				4E91298414C66EBE0001F870 /* CoreGraphics.framework */,
+				4E9129A114C66EBE0001F870 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E91298614C66EBE0001F870 /* DensityCalculator */ = {
+			isa = PBXGroup;
+			children = (
+				4E919A9514CBA9D500075E5B /* Icons */,
+				4EA7A63914CB746A003D044D /* Images */,
+				4EA2397B14C7884B006C491E /* Classes */,
+				4E9129BB14C671670001F870 /* ViewControllers */,
+				4E91298F14C66EBE0001F870 /* AppDelegate.h */,
+				4E91299014C66EBE0001F870 /* AppDelegate.m */,
+				4E91299214C66EBE0001F870 /* MainStoryboard.storyboard */,
+				4E91299514C66EBE0001F870 /* MasterViewController.h */,
+				4E91299614C66EBE0001F870 /* MasterViewController.m */,
+				4E91298714C66EBE0001F870 /* Supporting Files */,
+			);
+			path = DensityCalculator;
+			sourceTree = "<group>";
+		};
+		4E91298714C66EBE0001F870 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E91298814C66EBE0001F870 /* DensityCalculator-Info.plist */,
+				4E91298914C66EBE0001F870 /* InfoPlist.strings */,
+				4E91298C14C66EBE0001F870 /* main.m */,
+				4E91298E14C66EBE0001F870 /* DensityCalculator-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E9129A714C66EBE0001F870 /* DensityCalculatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				4E9129AD14C66EBE0001F870 /* DensityCalculatorTests.h */,
+				4E9129AE14C66EBE0001F870 /* DensityCalculatorTests.m */,
+				4E9129A814C66EBE0001F870 /* Supporting Files */,
+			);
+			path = DensityCalculatorTests;
+			sourceTree = "<group>";
+		};
+		4E9129A814C66EBE0001F870 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E9129A914C66EBE0001F870 /* DensityCalculatorTests-Info.plist */,
+				4E9129AA14C66EBE0001F870 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4E9129BB14C671670001F870 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4E9129BC14C671970001F870 /* DensityViewController.h */,
+				4E9129BD14C671970001F870 /* DensityViewController.m */,
+				4E9129C014C671BA0001F870 /* SpeedOfSoundViewController.h */,
+				4E9129C114C671BA0001F870 /* SpeedOfSoundViewController.m */,
+				4E9129C314C671D50001F870 /* RadiationRatioViewController.h */,
+				4E9129C414C671D50001F870 /* RadiationRatioViewController.m */,
+				4E9129C814C67F680001F870 /* SliderSettingsViewController.h */,
+				4E9129C914C67F680001F870 /* SliderSettingsViewController.m */,
+				4EAB555D14C6FE8100A8120F /* LengthViewController.h */,
+				4EAB555E14C6FE8100A8120F /* LengthViewController.m */,
+				4EA2397514C78499006C491E /* VolumeViewController.h */,
+				4EA2397614C78499006C491E /* VolumeViewController.m */,
+				4EA2397C14C7E266006C491E /* WidthViewController.h */,
+				4EA2397D14C7E266006C491E /* WidthViewController.m */,
+				4EA2397F14C7E89B006C491E /* ThicknessViewController.h */,
+				4EA2398014C7E89B006C491E /* ThicknessViewController.m */,
+				4E01340814C9413D00A4C6C1 /* WeightViewController.h */,
+				4E01340914C9413D00A4C6C1 /* WeightViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		4E919A9514CBA9D500075E5B /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				4E3C5D2116325B6200A913E1 /* Default-568h@2x.png */,
+				4E919A9614CBA9D500075E5B /* DensityCalculator.png */,
+				4E919A9714CBA9D500075E5B /* Icon-72.png */,
+				4E919A9814CBA9D500075E5B /* Icon-Small-50.png */,
+				4E919A9914CBA9D500075E5B /* Icon-Small.png */,
+				4E919A9A14CBA9D500075E5B /* Icon-Small@2x.png */,
+				4ED3276D1F473267005DDEBB /* Icon-120.png */,
+				4ED3276E1F473267005DDEBB /* iTunesArtwork@2x.png */,
+				4E919A9B14CBA9D500075E5B /* Icon.png */,
+				4E919A9C14CBA9D500075E5B /* Icon@2x.png */,
+				4E919A9D14CBA9D500075E5B /* iTunesArtwork */,
+			);
+			path = Icons;
+			sourceTree = "<group>";
+		};
+		4EA2397B14C7884B006C491E /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4ED98C3814CC80E0009BA5A8 /* PropertyList.h */,
+				4ED98C3914CC80E0009BA5A8 /* PropertyList.m */,
+				4EA2397814C78843006C491E /* Calculator.h */,
+				4EA2397914C78843006C491E /* Calculator.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		4EA7A63914CB746A003D044D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4EA7A63D14CB79AF003D044D /* PlayButton.png */,
+				4EA7A63A14CB746A003D044D /* background.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E91297B14C66EBE0001F870 /* DensityCalculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E9129B214C66EBE0001F870 /* Build configuration list for PBXNativeTarget "DensityCalculator" */;
+			buildPhases = (
+				4E91297814C66EBE0001F870 /* Sources */,
+				4E91297914C66EBE0001F870 /* Frameworks */,
+				4E91297A14C66EBE0001F870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DensityCalculator;
+			productName = DensityCalculator;
+			productReference = 4E91297C14C66EBE0001F870 /* DensityCalculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4E91299F14C66EBE0001F870 /* DensityCalculatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E9129B514C66EBE0001F870 /* Build configuration list for PBXNativeTarget "DensityCalculatorTests" */;
+			buildPhases = (
+				4E91299B14C66EBE0001F870 /* Sources */,
+				4E91299C14C66EBE0001F870 /* Frameworks */,
+				4E91299D14C66EBE0001F870 /* Resources */,
+				4E91299E14C66EBE0001F870 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4E9129A614C66EBE0001F870 /* PBXTargetDependency */,
+			);
+			name = DensityCalculatorTests;
+			productName = DensityCalculatorTests;
+			productReference = 4E9129A014C66EBE0001F870 /* DensityCalculatorTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E91297314C66EBD0001F870 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "MariZack Consulting";
+				TargetAttributes = {
+					4E91297B14C66EBE0001F870 = {
+						DevelopmentTeam = 8DT5Y3HP4L;
+						ProvisioningStyle = Automatic;
+					};
+					4E91299F14C66EBE0001F870 = {
+						DevelopmentTeam = 8DT5Y3HP4L;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 4E91297614C66EBD0001F870 /* Build configuration list for PBXProject "DensityCalculator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E91297114C66EBD0001F870;
+			productRefGroup = 4E91297D14C66EBE0001F870 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E91297B14C66EBE0001F870 /* DensityCalculator */,
+				4E91299F14C66EBE0001F870 /* DensityCalculatorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E91297A14C66EBE0001F870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ED3276F1F473267005DDEBB /* Icon-120.png in Resources */,
+				4ED327701F473267005DDEBB /* iTunesArtwork@2x.png in Resources */,
+				4E91298B14C66EBE0001F870 /* InfoPlist.strings in Resources */,
+				4E91299414C66EBE0001F870 /* MainStoryboard.storyboard in Resources */,
+				4EA7A63B14CB746A003D044D /* background.png in Resources */,
+				4EA7A63E14CB79AF003D044D /* PlayButton.png in Resources */,
+				4E919A9E14CBA9D500075E5B /* DensityCalculator.png in Resources */,
+				4E919A9F14CBA9D500075E5B /* Icon-72.png in Resources */,
+				4E919AA014CBA9D500075E5B /* Icon-Small-50.png in Resources */,
+				4E919AA114CBA9D500075E5B /* Icon-Small.png in Resources */,
+				4E919AA214CBA9D500075E5B /* Icon-Small@2x.png in Resources */,
+				4E919AA314CBA9D500075E5B /* Icon.png in Resources */,
+				4E919AA414CBA9D500075E5B /* Icon@2x.png in Resources */,
+				4E919AA514CBA9D500075E5B /* iTunesArtwork in Resources */,
+				4E3C5D2216325B6200A913E1 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E91299D14C66EBE0001F870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9129AC14C66EBE0001F870 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E91299E14C66EBE0001F870 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E91297814C66EBE0001F870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E91298D14C66EBE0001F870 /* main.m in Sources */,
+				4E91299114C66EBE0001F870 /* AppDelegate.m in Sources */,
+				4E91299714C66EBE0001F870 /* MasterViewController.m in Sources */,
+				4E9129BE14C671970001F870 /* DensityViewController.m in Sources */,
+				4E9129C214C671BA0001F870 /* SpeedOfSoundViewController.m in Sources */,
+				4E9129C514C671D50001F870 /* RadiationRatioViewController.m in Sources */,
+				4E9129CA14C67F680001F870 /* SliderSettingsViewController.m in Sources */,
+				4EAB555F14C6FE8100A8120F /* LengthViewController.m in Sources */,
+				4EA2397714C78499006C491E /* VolumeViewController.m in Sources */,
+				4EA2397A14C78843006C491E /* Calculator.m in Sources */,
+				4EA2397E14C7E266006C491E /* WidthViewController.m in Sources */,
+				4EA2398114C7E89B006C491E /* ThicknessViewController.m in Sources */,
+				4E01340A14C9413E00A4C6C1 /* WeightViewController.m in Sources */,
+				4ED98C3A14CC80E0009BA5A8 /* PropertyList.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E91299B14C66EBE0001F870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9129AF14C66EBE0001F870 /* DensityCalculatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4E9129A614C66EBE0001F870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4E91297B14C66EBE0001F870 /* DensityCalculator */;
+			targetProxy = 4E9129A514C66EBE0001F870 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4E91298914C66EBE0001F870 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E91298A14C66EBE0001F870 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4E91299214C66EBE0001F870 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E91299314C66EBE0001F870 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		4E9129AA14C66EBE0001F870 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E9129AB14C66EBE0001F870 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E9129B014C66EBE0001F870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E9129B114C66EBE0001F870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E9129B314C66EBE0001F870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DensityCalculator/DensityCalculator-Prefix.pch";
+				INFOPLIST_FILE = "DensityCalculator/DensityCalculator-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marizack.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E9129B414C66EBE0001F870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DensityCalculator/DensityCalculator-Prefix.pch";
+				INFOPLIST_FILE = "DensityCalculator/DensityCalculator-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marizack.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4E9129B614C66EBE0001F870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DensityCalculator.app/DensityCalculator";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DensityCalculator/DensityCalculator-Prefix.pch";
+				INFOPLIST_FILE = "DensityCalculatorTests/DensityCalculatorTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marizack.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4E9129B714C66EBE0001F870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DensityCalculator.app/DensityCalculator";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DensityCalculator/DensityCalculator-Prefix.pch";
+				INFOPLIST_FILE = "DensityCalculatorTests/DensityCalculatorTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marizack.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		4E919AA614CBAA2400075E5B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Distribution;
+		};
+		4E919AA714CBAA2400075E5B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DensityCalculator/DensityCalculator-Prefix.pch";
+				INFOPLIST_FILE = "DensityCalculator/DensityCalculator-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marizack.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+		4E919AA814CBAA2400075E5B /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/DensityCalculator.app/DensityCalculator";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 8DT5Y3HP4L;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DensityCalculator/DensityCalculator-Prefix.pch";
+				INFOPLIST_FILE = "DensityCalculatorTests/DensityCalculatorTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.marizack.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E91297614C66EBD0001F870 /* Build configuration list for PBXProject "DensityCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E9129B014C66EBE0001F870 /* Debug */,
+				4E9129B114C66EBE0001F870 /* Release */,
+				4E919AA614CBAA2400075E5B /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E9129B214C66EBE0001F870 /* Build configuration list for PBXNativeTarget "DensityCalculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E9129B314C66EBE0001F870 /* Debug */,
+				4E9129B414C66EBE0001F870 /* Release */,
+				4E919AA714CBAA2400075E5B /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E9129B514C66EBE0001F870 /* Build configuration list for PBXNativeTarget "DensityCalculatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E9129B614C66EBE0001F870 /* Debug */,
+				4E9129B714C66EBE0001F870 /* Release */,
+				4E919AA814CBAA2400075E5B /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E91297314C66EBD0001F870 /* Project object */;
+}
